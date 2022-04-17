@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_vertical_margin"
+    android:paddingRight="@dimen/activity_vertical_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+    <TextView
+        android:id="@+id/txt_judul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="29dp"
+        android:text="@string/luas_persegi_panjang"
+        android:textColor="#0277BD" />
+
+    <TextView
+        android:id="@+id/txt_panjang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_judul"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="48dp"
+        android:text="@string/panjang"
+        android:textColor="#0277BD" />
+
+    <TextView
+        android:id="@+id/txt_lebar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/lebar"
+        android:layout_alignStart="@+id/txt_panjang"
+        android:layout_alignBottom="@+id/lebar"
+        android:text="@string/lebar"
+        android:textColor="#0277BD" />
+
+    <EditText
+        android:id="@+id/panjang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_judul"
+        android:layout_alignStart="@+id/txt_judul"
+        android:layout_marginTop="35dp"
+        android:ems="10"
+        android:hint="@string/masukkan_panjang"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textColorHint="#78909C"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/lebar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/panjang"
+        android:layout_alignStart="@+id/panjang"
+        android:layout_marginTop="31dp"
+        android:ems="10"
+        android:hint="@string/masukkan_lebar"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textColorHint="#78909C"
+        android:importantForAutofill="no" />
+
+    <Button
+        android:text="@string/hasil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lebar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="48dp"
+        android:id="@+id/button" />
+
+    <TextView
+        android:id="@+id/txt_hasil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="57dp"
+        android:text="@string/luas_persegi_panjang_adalah"
+        android:textColor="#D32F2F" />
+
+</RelativeLayout>

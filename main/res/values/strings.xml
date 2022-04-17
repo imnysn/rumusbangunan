@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Rumus Bangunan</string>
+    <string name="masukkan_lebar">Masukkan Lebar</string>
+    <string name="hasil">HASIL</string>
+    <string name="masukkan_panjang">Masukkan Panjang</string>
+    <string name="luas_persegi_panjang">Luas Persegi Panjang</string>
+    <string name="luas_persegi_panjang_adalah">Luas Persegi Panjang Adalah:</string>
+    <string name="panjang">Panjang</string>
+    <string name="lebar">Lebar</string>
+</resources>
